@@ -1,0 +1,90 @@
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-areas:"item1 item2 item2 item3 item4"
+                        "item5 item6 item7 item3 item4"
+                        "item8 item8 item8 item8 item4"
+                        "item9 item9 item10 item11 item4"
+                        "item9 item9 item12 item13 item4"
+
+}
+
+.box1 {
+    background-color: green;
+    grid-area: item1;
+}
+
+.box2 {
+    background-color: greenyellow;
+    grid-area: item5;
+}
+
+.box3 {
+    background-color: rgb(219, 152, 108);
+    grid-area: item8;
+}
+
+.box4 {
+    background-color: rgb(122, 92, 131);
+    grid-area: item9;
+}
+
+.box5 {
+    background-color: rgb(97, 177, 97);
+    grid-area: item2;
+}
+
+.box6 {
+    background-color: rgb(103, 223, 187);
+    grid-area: item6;
+}
+
+.box7 {
+    background-color: rgb(145, 34, 34);
+    grid-area: item7;
+}
+
+.box8 {
+    background-color: black;
+    grid-area: item10;
+
+}
+
+.box9 {
+    background-color: rgb(134, 37, 37);
+    grid-area: item12;
+}
+
+.box10 {
+    background-color: rgb(88, 112, 158);
+    grid-area: item3;
+}
+
+.box11 {
+    background-color: purple;
+    grid-area: item11;
+}
+
+.box12 {
+    background-color: rgb(154, 176, 218);
+    grid-area: item13;
+}
+
+.box13 {
+    background-color: rgb(214, 138, 214);
+    grid-area: item4;
+}
+
+.smaller_box {
+    border: 1px dotted white
+ }
+
+.smaller_box:hover {
+    transform: scale(.9);
+}
